@@ -41,7 +41,8 @@ public class ArraysHelper {
          * Object array.
          */
         Integer[] arr = ArraysHelper.flatten(new Object[] { new Object[] {1,2, new Object[] {3}},4});
-
+        //By Gaja
+        System.out.println("Printing the result below");
         //Prints the result
         Arrays.stream(arr).forEach(System.out::println);
     }
